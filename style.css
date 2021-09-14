@@ -1,45 +1,33 @@
-body,
-html {
-  width: 100%;
-  height: 100%;
-  font-family: 'Montserrat', sans-serif;
-  background: url(header.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-
-}
-h1 {
-  font-size: 3rem;
-  color: #e2dbdb;
+h2 {
+ font-family: preconnect;
+ font-size: 52px;
+ text-align: center;
+ color: darkorange;
+ font-style: italic;
+ -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
 }
 
-.buffer {
-  height: 10rem;
+p {
+ font-family: serif;
+ font-size: 28px;
+ font-style: italic;
+ text-align: center;
+ color: darkorange;
+ text-shadow: 1px 1px black;
 }
 
-hr {
-  border-color: #f05f44;
-  border-width: 3px;
-  max-width: 65px;
+body {
+ background-color: lightgoldenrodyellow;
 }
-
-.btn {
-  font-weight: 700;
-  border-radius: 300px;
-  text-transform: uppercase;
+.container {
+ display: flex;
+ justify-content: center;
 }
-
-.btn-primary {
-  background-color: #f05f44;
-  border-color: #f05f44;
-}
-
-.btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 4px;
-}
-
-.btn-xl {
-  padding: 1rem 2rem;
+footer {
+ font-family: serif;
+ font-size: 20px;
+ font-style: italic;
+ color: darkorange;
+ text-shadow: 1px 1px black;
 }
